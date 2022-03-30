@@ -1,0 +1,31 @@
+{
+  "scopes": [
+    {
+      "name": "risk-management-risk-management3.RiskViewer",
+      "description": "RiskViewer"
+    },
+    {
+      "name": "risk-management-risk-management3.RiskManager",
+      "description": "RiskManager"
+    }
+  ],
+  "attributes": [],
+  "role-templates": [
+    {
+      "name": "RiskViewer",
+      "description": "generated",
+      "scope-references": [
+        "risk-management-risk-management3.RiskViewer"
+      ],
+      "attribute-references": []
+    },
+    {
+      "name": "RiskManager",
+      "description": "generated",
+      "scope-references": [
+        "risk-management-risk-management3.RiskManager"
+      ],
+      "attribute-references": []
+    }
+  ]
+}
